@@ -1,0 +1,18 @@
+@font-face {
+    font-family: fauneItalic;
+    src: url("./faune-italic.ttf");
+}
+
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url("./poppins-semibold.ttf");
+}
+  
+.logo-font-1 {
+    font-family: poppinsSemiBold;
+
+}
+
+.logo-font-2 {
+    font-family: fauneItalic;
+}
