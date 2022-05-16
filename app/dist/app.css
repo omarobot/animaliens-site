@@ -894,11 +894,11 @@
 }
 .main .page-title .slider-st2 .overlay {
   position: absolute;
-  left: 25%;
+  left: 50%;
   top: 0;
-  width: 100%;
+  width: 45%;
   height: 70%;
-  background: url("./../../assets/images/drippy.png") center center no-repeat;
+  background: url("./../../assets/images/smalldrip.gif") center center no-repeat;
   /* background: url("./../../assets/images/animation.gif") center center no-repeat; */
 
   background-size: cover;
@@ -911,7 +911,6 @@
   top: 0;
   width: 52%;
   height: 70%;
-  /* background: url("./../../assets/images/backgroup/drippy.png") center center no-repeat; */
   background: url("./../../assets/images/33.png") center center no-repeat;
 
   background-size: cover;
