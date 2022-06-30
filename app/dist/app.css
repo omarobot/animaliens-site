@@ -897,7 +897,7 @@
   left: 50%;
   top: 0;
   width: 45%;
-  height: 70%;
+  height: 80%;
   background: url("./../../assets/images/smalldrip.gif") center center no-repeat;
   /* background: url("./../../assets/images/animation.gif") center center no-repeat; */
 
@@ -913,7 +913,7 @@
   height: 70%;
   background: url("./../../assets/images/33.png") center center no-repeat;
 
-  background-size: cover;
+  background-size: 750px;
   /* opacity: 0.3; */
 }
 
@@ -6632,6 +6632,8 @@ img.mfp-img {
 .main .page-title .slider-st3 .overlay,
 .main .page-title .slider-st1 .overlay {
     height: 102%;
+    width: 100%;
+    left: 10%
   }
   .main .page-title .slider-st2 .box-slider .content-box .title,
 .main .page-title .slider-st3 .box-slider .content-box .title,
@@ -6646,13 +6648,14 @@ img.mfp-img {
   .main .page-title .slider-st2 .box-slider .content-box .wrap-btn,
 .main .page-title .slider-st3 .box-slider .content-box .wrap-btn,
 .main .page-title .slider-st1 .box-slider .content-box .wrap-btn {
-    display: block;
+    display: flex;
+    justify-content: space-around;
   }
   .main .page-title .slider-st2 .box-slider .content-box .wrap-btn .tf-button-st2,
 .main .page-title .slider-st3 .box-slider .content-box .wrap-btn .tf-button-st2,
 .main .page-title .slider-st1 .box-slider .content-box .wrap-btn .tf-button-st2 {
     margin-right: 0;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
   .main .page-title .slider-st3 .box-slider .content-box {
     padding-left: 0;
